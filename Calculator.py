@@ -9,13 +9,13 @@ def divide(a, b):
         return "Error: Division by zero!"
     return a / b        #devision
 
-print("===== SIMPLE CALCULATOR =====")
+print("===== SIMPLE CALCULATOR =====")  #Printing Start Menu
 print("1. Addition")
 print("2. Subtraction")
 print("3. Multiplication")
 print("4. Division")
 choice = int(input("Enter your choice (1-4): "))
-num1 = float(input("Enter first number: "))
+num1 = float(input("Enter first number: "))           # Numerical Input From User
 num2 = float(input("Enter second number: "))
 if choice == 1:
     print("Result:", add(num1, num2))
@@ -33,4 +33,5 @@ else:
     
     
     
+
     
